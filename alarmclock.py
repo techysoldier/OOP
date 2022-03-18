@@ -48,6 +48,3 @@ def switch (self):
     if self.switch_on == 'N':
         print( 'wrong input')
 
-def current(self):
-    self.now = '9am'
-    print('9am')

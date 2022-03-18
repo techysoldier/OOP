@@ -9,10 +9,8 @@ print(Alarm, my_alarm.wake)
 
 my_alarm = switch
 print(input('Y or N')) 
-print('Alarm is set for', my_alarm)
+print('Alarm is set for', '11am')
 
-my_time = current("9:00")
-print('9am')
 
 
 
