@@ -1,5 +1,4 @@
-from time import time
-from alarmclock import Alarm, current, switch
+from alarmclock import Alarm, my_time, switch
 
 
 my_alarm = Alarm('11:00')
@@ -7,11 +6,11 @@ print(Alarm, my_alarm.wake)
 
 
 
-my_alarm = switch
-print(input('Y or N')) 
-print('Alarm is set for', '11am')
+my_switch = switch
+print(switch)
 
-
+what_time_is = my_time
+print("it is", my_time)
 
 
  

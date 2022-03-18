@@ -30,7 +30,7 @@
 class Alarm: 
     def __init__(self, wake):
         self.wake = wake
-        self.switch_on = True 
+        self.switch = True 
         self.now = '9am'
 pass 
         
@@ -39,12 +39,18 @@ def set_alarm(self, wake):
     print('The alarm is set for', wake)
 pass
 
+def my_time(self): 
+    self.now = '9am'
+print('self.now')
+
 
 def switch (self): 
-    self.switch_on = input('Press y to turn on to turn off press N \n')
-    while self.switch_on == 'Y':
-        self.switch_on = True 
+    self.switch = input('Press y to turn on to turn off press N \n')
+    if switch == 'Y':
+        self.switch = True 
     print('Alarm is set')  
-    if self.switch_on == 'N':
+    if self.switch == 'N':
         print( 'wrong input')
+    else: 
+        None 
 
